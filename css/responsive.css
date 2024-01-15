@@ -42,8 +42,10 @@
         display: flex;
     }
 
+    /* Banner Section */
 
 }
+
 /* For Small Devices */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
@@ -88,5 +90,6 @@
         display: flex;
     }
 
+    /* Banner Section */
 
 }

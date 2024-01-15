@@ -64,6 +64,7 @@ html {
 #navigation {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 5rem;
 }
 
 .navigation_brand {
@@ -71,10 +72,6 @@ html {
     display: flex;
     gap: 1.7rem;
 }
-
-.navigation_brand>img {}
-
-.navigation_brand>h2 {}
 
 .navigation_brand>h2>span {
     color: var(--primary-color);
@@ -114,6 +111,87 @@ html {
     font-size: 2.4rem;
 }
 
+
+/* Banner Section */
+#banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/header-bgc.png');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 11rem 0;
+    border-radius: 1.6rem;
+}
+
+.banner_content {}
+
+.banner_title,
+.banner_description {
+    color: #FFF;
+    text-align: center;
+    font-style: 400;
+    font-weight: 400;
+}
+
+.banner_title {
+    font-size: 6.4rem;
+    font-weight: 800;
+}
+
+.banner_description {
+    width: 85%;
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    margin: 2.4rem auto 4.8rem;
+    padding: 0 25rem;
+}
+
+.banner_options {
+    background-color: #ffffff57;
+    border-radius: 0.8rem;
+    padding: 1.6rem;
+    display: flex;
+    gap: 2.5rem;
+    width: 60%;
+    margin: auto;
+}
+
+.banner_options>.option,
+.banner_options>button {
+    border-radius: 0.8rem;
+    font-size: 1.6rem;
+    font-style: 400;
+    padding: 1.6rem;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    border: 0;
+}
+
+.banner_options>.option {
+    background-color: #fff;
+    justify-content: space-between;
+}
+
+.banner_options>button {
+    background-color: var(--primary-color);
+    justify-content: center;
+    gap: 1rem;
+    color: #FFF;
+}
+
+.banner_options>.option>p {
+    color: var(--common-color);
+    font-weight: 400;
+}
+
+.banner_options>.option>i{
+    color: var(--common-color);
+}
+
+.banner_options>.option>i,
+.banner_options button>i {
+    font-size: 2rem;
+}
 
 
 /* Main Starts */
