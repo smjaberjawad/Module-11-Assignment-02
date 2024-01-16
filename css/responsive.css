@@ -124,7 +124,6 @@
         height: 30rem;
     }
 
-
     /* Choose Section */
     #choose>p {
         margin: 1.4rem auto 1.6rem;
@@ -143,6 +142,29 @@
     .second_choose_card_row>.choose_card {
         width: 100%;
         margin: auto;
+    }
+
+    /* Plan Section */
+    #plan {
+        margin: 5rem 0;
+        padding: 3rem 2rem;
+    }
+
+    #plan>p {
+        width: 100%;
+        margin: 2rem auto;
+    }
+
+    .plan_cards_container {
+        flex-direction: column;
+    }
+
+    .plan_card_content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
     }
 
 }
@@ -273,4 +295,24 @@
         margin: 1.4rem auto 2rem;
         width: 80%;
     }
+
+    /* Plan Section */
+    #plan {
+        margin: 5rem 0;
+        padding: 3rem 2rem;
+    }
+
+    #plan>p {
+        width: 65%;
+        margin: 2rem auto;
+    }
+
+    .plan_card_content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1rem;
+    }
+
 }
