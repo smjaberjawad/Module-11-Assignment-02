@@ -24,10 +24,14 @@
     #header {
         height: auto;
         width: 100%;
-        padding: 2rem 2.5rem;
+        padding: 1.5rem;
     }
 
     /* Navigation Section */
+    #navigation {
+        margin-bottom: 1.7rem;
+    }
+
     .navigation_brand {
         width: auto;
         align-items: center;
@@ -43,6 +47,26 @@
     }
 
     /* Banner Section */
+    #banner {
+        padding: 3rem 0;
+    }
+
+    .banner_title {
+        font-size: 2.3rem;
+    }
+
+    .banner_description {
+        width: 85%;
+        font-size: 1.4rem;
+        line-height: 2.1rem;
+        margin: 1rem auto 3rem;
+        padding: 0;
+    }
+
+    .banner_options {
+        width: 90%;
+        flex-direction: column;
+    }
 
 }
 
@@ -51,7 +75,7 @@
 
     /* Common CSS */
     .container {
-        width: 97.5%;
+        width: 80%;
     }
 
     .title {
@@ -91,5 +115,24 @@
     }
 
     /* Banner Section */
+    #banner {
+        padding: 11rem 0;
+    }
 
+    .banner_title {
+        font-size: 6.4rem;
+    }
+
+    .banner_description {
+        width: 85%;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+        margin: 1rem auto 3rem;
+        padding: 0 5rem;
+    }
+
+    .banner_options {
+        width: 60%;
+        flex-direction: column;
+    }
 }
