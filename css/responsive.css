@@ -216,7 +216,7 @@
 
     .perfect_container {
         flex-direction: column;
-        gap: 2.4rem;
+        gap: 1.6rem;
     }
 
     .perfect_content {
@@ -240,6 +240,26 @@
 
     .perfect_video {
         width: 100%;
+    }
+
+    /* Newsletter Section */
+    .newsletter_container {
+        flex-direction: column;
+    }
+
+    .newsletter_content {
+        width: 100%;
+    }
+
+    .newsletter_img {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .newsletter_img>.tag {
+        padding: 1.5rem 3rem;
+        transform: rotate(-19.628deg);
+        position: absolute;
     }
 
 
