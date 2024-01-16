@@ -209,6 +209,39 @@
         margin-top: 2rem;
     }
 
+    /* Perfect Section */
+    #perfect {
+        margin: 2.4rem 0;
+    }
+
+    .perfect_container {
+        flex-direction: column;
+        gap: 2.4rem;
+    }
+
+    .perfect_content {
+        width: 100%;
+        margin: 0;
+    }
+
+    .perfect_content>h2 {
+        margin-bottom: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .perfect_content>p {
+        margin: 1.6rem 0;
+    }
+
+    .perfect_content>ul {
+        margin-left: 1.75rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .perfect_video {
+        width: 100%;
+    }
+
 
 }
 
@@ -362,6 +395,34 @@
     .deal_content {
         width: 70%;
         padding: 3.5rem;
+    }
+
+    .discount_btn {
+        margin-top: 3rem;
+    }
+
+    /* Perfect Section */
+    #perfect {
+        margin: 5rem 0;
+    }
+
+    .perfect_content>h2 {
+        margin-bottom: 1.6rem;
+        line-height: 3rem;
+    }
+
+    .perfect_content>p {
+        margin: 1.6rem 0;
+    }
+
+    .perfect_content>ul {
+        margin-left: 1.75rem;
+        margin-bottom: 2.4rem;
+    }
+
+    .perfect_video {
+        display: flex;
+        align-items: center;
     }
 
 }

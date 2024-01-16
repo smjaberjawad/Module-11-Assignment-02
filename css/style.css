@@ -616,6 +616,71 @@ html {
 }
 
 
+/* Perfect Section */
+#perfect {
+    margin: 10rem 0;
+}
+
+.perfect_container {
+    display: flex;
+    gap: 3rem;
+}
+
+.perfect_content {
+    width: 50%;
+    margin: auto 0;
+}
+
+.perfect_content>h2 {
+    margin-bottom: 2.4rem;
+    line-height: 6rem;
+}
+
+.perfect_content>p {
+    margin: 2.4rem 0;
+}
+
+.perfect_content>ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    margin-left: 1.5rem;
+    margin-bottom: 3.2rem;
+}
+
+.perfect_content>ul>li {
+    color: var(--secondary-color);
+    font-size: 1.6rem;
+    font-style: 400;
+    font-weight: 700;
+    line-height: 2.6rem;
+}
+
+.perfect_btn {
+    padding: 1.5rem 4.2rem;
+    border-radius: 0.8rem;
+    border: 0;
+    background-color: var(--primary-color);
+}
+
+.perfect_btn>a {
+    color: #FFF;
+    font-size: 2rem;
+    font-style: 400;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.perfect_video {
+    width: 50%;
+}
+
+.perfect_video>video {
+    width: 100%;
+    border-radius: 1.6rem;
+}
+
+
 
 /* Footer Starts */
 #footer {}
