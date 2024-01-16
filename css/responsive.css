@@ -96,6 +96,34 @@
     }
 
 
+    /* Destination Section */
+    #destination {
+        margin: 2.5rem 0;
+    }
+
+    #destination>p {
+        margin: 1.4rem auto 1.6rem;
+        width: 80%;
+    }
+
+    .destination_container,
+    .first_destination_row,
+    .second_destination_row,
+    .third_destination_row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north_america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        height: 30rem;
+    }
+
 }
 
 /* For Large Devices */
@@ -177,7 +205,6 @@
 
     /* Popular Section */
     .popular_container {
-        /* flex-direction: column; */
         gap: 2.5rem;
     }
 
@@ -193,5 +220,26 @@
     .popular_pahar {
         width: 100%;
         margin: auto;
+    }
+
+
+    /* Destination Section */
+    #destination {
+        margin: 4rem 0;
+    }
+
+    #destination>p {
+        margin: 1.4rem auto 2rem;
+        width: 80%;
+    }
+
+    .maldives,
+    .indonesia,
+    .srilanka,
+    .north_america,
+    .kashmir,
+    .bangladesh,
+    .bandarban {
+        height: 20rem;
     }
 }
