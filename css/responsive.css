@@ -436,6 +436,11 @@
         padding: 3.5rem;
     }
 
+    #discount>p {
+        margin: 1.4rem auto 2rem;
+        width: 80%;
+    }
+
     .discount_btn {
         margin-top: 3rem;
     }
@@ -469,10 +474,6 @@
     #footer {
         padding: 3rem 0;
     }
-
-    /* .footer_container {
-        width: 80%;
-    } */
 
     .footer_container>p {
         margin: 1.6rem;
