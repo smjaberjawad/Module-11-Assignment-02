@@ -124,6 +124,27 @@
         height: 30rem;
     }
 
+
+    /* Choose Section */
+    #choose>p {
+        margin: 1.4rem auto 1.6rem;
+        width: 80%;
+    }
+
+    .first_choose_card_row {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .second_choose_card_row {
+        margin-top: 2rem;
+    }
+
+    .second_choose_card_row>.choose_card {
+        width: 100%;
+        margin: auto;
+    }
+
 }
 
 /* For Large Devices */
@@ -197,6 +218,7 @@
         flex-direction: column;
     }
 
+
     /* Main Starts */
     #main {
         width: 92.5%;
@@ -222,7 +244,6 @@
         margin: auto;
     }
 
-
     /* Destination Section */
     #destination {
         margin: 4rem 0;
@@ -241,5 +262,15 @@
     .bangladesh,
     .bandarban {
         height: 20rem;
+    }
+
+    /* Choose Section */
+    #choose {
+        margin: 4rem 0;
+    }
+
+    #choose>p {
+        margin: 1.4rem auto 2rem;
+        width: 80%;
     }
 }
