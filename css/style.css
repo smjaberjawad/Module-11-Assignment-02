@@ -501,8 +501,6 @@ html {
 
 
 /* Discount Section */
-#discount {}
-
 #discount>h2 {
     text-align: center;
 }
@@ -552,8 +550,6 @@ html {
     margin-bottom: 2.4rem;
 }
 
-.deal_short_info>p {}
-
 .deal_short_info>p>i {
     margin-right: 1rem;
     color: var(--primary-color);
@@ -596,6 +592,27 @@ html {
     font-size: 2rem;
     font-style: 400;
     font-weight: 800;
+}
+
+.discount_btn {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.discount_btn>button {
+    background-color: var(--primary-color);
+    padding: 1.5rem 2.2rem;
+    border: 0;
+    border-radius: 0.8rem;
+}
+
+.discount_btn>button>a {
+    color: #FFF;
+    font-size: 2rem;
+    font-style: 400;
+    font-weight: 800;
+    text-decoration: none;
 }
 
 
