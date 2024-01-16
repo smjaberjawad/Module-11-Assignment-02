@@ -500,6 +500,105 @@ html {
 }
 
 
+/* Discount Section */
+#discount {}
+
+#discount>h2 {
+    text-align: center;
+}
+
+#discount>p {
+    margin: 2.4rem auto 5rem;
+    width: 42.5%;
+    text-align: center;
+}
+
+.deals_container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.deal {
+    background-image: url('../images/satorini.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 1.6rem;
+    padding: 5.6rem;
+    display: flex;
+}
+
+.deal:nth-child(2) {
+    background-image: url('../images/satorini-2.png');
+}
+
+.deal_content {
+    width: 50%;
+    border-radius: 1.6rem;
+    border: .1rem solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 5rem;
+}
+
+.deal:nth-child(2n+1) {
+    justify-content: end;
+}
+
+.deal_short_info {
+    display: flex;
+    gap: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.deal_short_info>p {}
+
+.deal_short_info>p>i {
+    margin-right: 1rem;
+    color: var(--primary-color);
+    font-size: 1.6rem;
+}
+
+.deal_detailed_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.deal_detailed_info>h3 {
+    margin-bottom: 1.6rem;
+}
+
+.deal_detailed_info>p {
+    margin-bottom: 1.6rem;
+}
+
+.deal_price {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-style: 400;
+    font-weight: 800;
+    margin-bottom: 2.4rem;
+}
+
+.deal_detailed_info>button {
+    width: min-content;
+    border: 0;
+    border-radius: 8px;
+    background: var(--primary-color);
+    padding: 1.5rem 2.5rem;
+}
+
+.deal_detailed_info>button>a {
+    white-space: nowrap;
+    text-decoration: none;
+    color: #FFF;
+    font-size: 2rem;
+    font-style: 400;
+    font-weight: 800;
+}
+
+
 
 /* Footer Starts */
 #footer {}

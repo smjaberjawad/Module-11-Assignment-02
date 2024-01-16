@@ -167,6 +167,45 @@
         padding: 1rem;
     }
 
+    /* Discount Section */
+    #discount>p {
+        margin: 1.6rem auto;
+        width: 92.5%;
+    }
+
+    .deal {
+        background-position: bottom center;
+        padding: 1.6rem;
+    }
+
+    .deal_content {
+        width: 100%;
+        padding: 2.5rem;
+    }
+
+    .deal_short_info {
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        margin-bottom: 1rem;
+    }
+
+    .deal_short_info>p>i {
+        margin-right: .6rem;
+    }
+
+    .deal_detailed_info>h3 {
+        margin-bottom: .6rem;
+    }
+
+    .deal_detailed_info>p {
+        margin-bottom: 1rem;
+    }
+
+    .deal_price {
+        margin-bottom: 1.6rem;
+    }
+
+
 }
 
 /* For Large Devices */
@@ -313,6 +352,12 @@
         justify-content: center;
         gap: 1rem;
         padding: 1rem;
+    }
+
+    /* Discount Section */
+    .deal_content {
+        width: 70%;
+        padding: 3.5rem;
     }
 
 }
