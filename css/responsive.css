@@ -23,8 +23,9 @@
     /* Header Starts */
     #header {
         height: auto;
-        width: 100%;
-        padding: 1.5rem;
+        width: 92.5%;
+        margin: auto;
+        padding: 2rem 0 2.5rem;
     }
 
     /* Navigation Section */
@@ -68,9 +69,36 @@
         flex-direction: column;
     }
 
+
+    /* Main Starts */
+    #main {
+        width: 92.5%;
+        margin: 0 auto 2rem;
+    }
+
+    /* Popular Section */
+    .popular_container {
+        flex-direction: column;
+        gap: 2.5rem;
+    }
+
+    .popular_info {
+        width: 100%;
+        gap: 2.4rem;
+    }
+
+    .popular_content {
+        gap: 1.6rem;
+    }
+
+    .popular_pahar {
+        width: 100%;
+    }
+
+
 }
 
-/* For Small Devices */
+/* For Large Devices */
 @media screen and (min-width: 992px) and (max-width: 1200px) {
 
     /* Common CSS */
@@ -95,11 +123,16 @@
     /* Header Starts */
     #header {
         height: auto;
-        width: 100%;
-        padding: 2rem 2.5rem;
+        width: 92.5%;
+        margin: auto;
+        padding: 2rem 0 2.5rem;
     }
 
     /* Navigation Section */
+    #navigation {
+        margin-bottom: 2.5rem;
+    }
+
     .navigation_brand {
         width: auto;
         align-items: center;
@@ -116,7 +149,7 @@
 
     /* Banner Section */
     #banner {
-        padding: 11rem 0;
+        padding: 5rem 0;
     }
 
     .banner_title {
@@ -134,5 +167,31 @@
     .banner_options {
         width: 60%;
         flex-direction: column;
+    }
+
+    /* Main Starts */
+    #main {
+        width: 92.5%;
+        margin: 2rem auto;
+    }
+
+    /* Popular Section */
+    .popular_container {
+        /* flex-direction: column; */
+        gap: 2.5rem;
+    }
+
+    .popular_info {
+        width: 100%;
+        gap: 2.4rem;
+    }
+
+    .popular_content {
+        gap: 1.6rem;
+    }
+
+    .popular_pahar {
+        width: 100%;
+        margin: auto;
     }
 }
